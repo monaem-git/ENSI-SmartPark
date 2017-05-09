@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_spot"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/img_spot"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/img_spot"
+        android:layout_toEndOf="@+id/img_spot">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_spot_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/btn_login"
+        android:textStyle="italic"
+        android:hint="State"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="13dp"
+        android:layout_alignBottom="@+id/img_spot"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_toEndOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/tv_spot_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_spot_ref"
+        android:layout_marginLeft="125dp"
+        android:layout_marginStart="125dp"
+        android:layout_toEndOf="@+id/tv_spot_ref"
+        android:layout_toRightOf="@+id/tv_spot_ref"
+        android:hint="Owner"
+        android:textColor="@color/bg_main"
+        android:textSize="13sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tv_spot_ref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/material_blue_grey_900"
+        android:textStyle="italic"
+        android:hint="reference"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_alignLeft="@+id/tv_spot_state"
+        android:layout_alignStart="@+id/tv_spot_state" />
+
+    <TextView
+        android:id="@+id/pid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/material_blue_grey_900"
+        android:text="TextView"
+        android:layout_below="@+id/tv_spot_owner"
+        android:layout_alignLeft="@+id/tv_spot_owner"
+        android:layout_alignStart="@+id/tv_spot_owner"
+        android:visibility="gone" />
+
+</RelativeLayout>

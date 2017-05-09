@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ENSI SmartPark</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">First name</string>
+    <string name="hint_lastname">Last name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login now.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="btn_list">Consult state of Ensi parking</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="btn_Confirm">Confirm</string>
+    <string name="btn_chPass">Change My Password</string>
+    <string name="hint_old_password">Old Password</string>
+</resources>
